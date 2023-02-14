@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-color.jpeg" rel="icon">
+    <link href="assets/img/logo-color.jpeg" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+        <title>Bootstrap</title>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+    </symbol>
+    <symbol id="bag" viewBox="0 0 16 16">
+        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+    </symbol>
+    <symbol id="box-with-heart" viewBox="0 0 16 16">
+        <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"/>
+    </symbol>
+    <symbol id="house-check" viewBox="0 0 16 16">
+        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+    </symbol>
+</svg>
+<!-- ======= Header ======= -->
+<header id="header" class="mb-auto header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+
+            <h1>North Star Wholesale</h1>
+        </a>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="product.html">Wholesale Product</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav><!-- .navbar -->
+
+        <div class="header-social-links">
+        </div>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+</header><!-- End Header -->
+<!--data-aos="fade" data-aos-delay="1500"-->
+<div class="first px-5 text-center">
+    <img class="d-block mx-auto mb-4" src="assets/img/logo-color.jpeg" alt="" width="100" height="100">
+    <h1 class="display-5 fw-bold">North Star Wholesale</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">North Star Wholesale Inc., is a Toronto based wholesale and trading company established in
+            2019. We
+            have our own efficient distribution system with multiple warehouses across different provinces to distribute
+            a variety of products to all our clients through local pick-up and delivery. Our main business is to connect
+            and build networks with commercial clients, eCommerce Entrepreneurs and stores to provide a wide range of
+            products to our clients at competitive prices along with great clients’ satisfactions. We have an
+            established network of clients across Canada and is ever expanding. </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-dark btn-lg px-4 gap-3"><a href="product.html">View Our Wholesale
+                Wholesale Product</a></button>
+        </div>
+    </div>
+</div>
+
+<div class="second ps-5 py-3" id="featured-3">
+    <h2></h2>>
+    <div class=" row g-4 px-3 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#bag"/>
+                </svg>
+            </div>
+            <h3 class="fs-5">Customer places their order</h3>
+            <p>A customer buys from your store, we charge for fulfillment, and you keep the profit</p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#box-with-heart"/>
+                </svg>
+            </div>
+            <h3 class="fs-5">North Star fulfills the order</h3>
+            <p>We take care of your order from A to Z, and control the whole fulfillment process</p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#house-check"/>
+                </svg>
+            </div>
+            <h3 class="fs-5">Order ships to your customer</h3>
+            <p>Your customer receives their order with your brand attached to it</p>
+        </div>
+    </div>
+</div>
+<div class="p-5 mb-4 bg-light rounded-3"
+     style="background-image: url('https://raw.githubusercontent.com/hsun1115/testingWeb/main/assets/img/201.png')">
+    <div class="container-fluid py-5 text-center">
+        <h1 class="display-5 fw-bold">Order Details</h1>
+        <p class="fs-4">We are unable to accommodate individual retail orders currently. Products on the website are for
+            information purposes and display only, please contact our customer service department to set up an account
+            and place orders. All merchandise usually takes two weeks to one month to arrive. Two days before the
+            arrival of the merchandise, our customer service specialist will contact the client to make an appointment
+            for the pickup time or delivery.</p>
+    </div>
+</div>
+
+<!--<div class="row align-items-md-stretch">-->
+<!--    <div class="col-md-6">-->
+<!--        <div class="h-100 p-5 text-bg-dark rounded-3">-->
+<!--            <h2>H2-1</h2>-->
+<!--            <p>1p-1</p>-->
+<!--            <p>1p-2</p>-->
+<!--            <p>1p-3</p>-->
+<!--            <p>1p-4</p>-->
+<!--            <button class="btn btn-outline-light" type="button">Shop Now</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="col-md-6">-->
+<!--        <div class="h-100 p-5 bg-light border rounded-3">-->
+<!--            <h2>h2-2</h2>-->
+<!--            <p>2p-1</p>-->
+<!--            <p>2p-2</p>-->
+<!--            <p>2p-3</p>-->
+<!--            <p>2p-4</p>-->
+<!--            <button class="btn btn-outline-secondary" type="button">Inquire Today</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+
+        <div class="section-header">
+            <h2></h2>
+            <p>Best Selling Items</p>
+        </div>
+
+        <div class="slides-3 swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="profile mt-auto">
+                            <img src="assets/img/product/food/53/053b.jpg" class="testimonial-img" alt="">
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="profile mt-auto">
+                            <img src="assets/img/product/pa/89/089a.jpg" class="testimonial-img" alt="">
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="profile mt-auto">
+                            <img src="assets/img/product/household/3/003a.jpg" class="testimonial-img" alt="">
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <div class="profile mt-auto">
+                            <img src="assets/img/product/household/10/010a.jpg" class="testimonial-img" alt="">
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="profile mt-auto">
+                            <img src="assets/img/product/pa/81/081a.jpg" class="testimonial-img" alt="">
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>
+
+<!--<div class="contact-header d-flex align-items-center">-->
+<!--    <div class="container position-relative">-->
+<!--        <div class="row d-flex justify-content-center">-->
+<!--            <div class="col-lg-1 text-center">-->
+<!--                <h2>Contact</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>&lt;!&ndash; End Page Header &ndash;&gt;-->
+
+<!-- ======= Contact Section ======= -->
+<section id="contact-section" class="contact" data-bs-spy="scroll"
+         data-bs-target="#navbar"
+         data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+         class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+    <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-1 text-center">
+                <h2>Contact</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div id="map1" class="mx-2"></div>
+        <div id="map2" class="mx-2"></div>
+        </div>
+    </div>
+
+    <div class="row gy-4 justify-content-center">
+
+        <div class="col-lg-3">
+            <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                    <h4>Toronto Office:</h4>
+                    <p>3500 Pharmacy Ave, </p>
+                    <p>ON, CA, M1W 2T6</p>
+                </div>
+            </div>
+        </div><!-- End Info Item -->
+        <div class="col-lg-3">
+            <div class="d-flex">
+                <i></i>
+                <div>
+                    <!-- <h4>Call:</h4>
+                    <p>+1 5589 55488 55</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                    <h4>Vancouver Office:</h4>
+                    <p>117982 River Rd, </p>
+                    <p>Richmond, BC, V7c 1Z7</p>
+                </div>
+            </div>
+        </div><!-- End Info Item -->
+    </div>
+
+
+    <!-- new add -->
+
+        <div class="row gy-4 justify-content-center">
+
+            <div class="col-lg-3">
+                <div class="info-item d-flex">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                        <h4>Email:</h4>
+                        <p>wtssupplyinc@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex">
+                    <i></i>
+                    <div>
+                        <!-- <h4>Call:</h4>
+                        <p>+1 5589 55488 55</p> -->
+                    </div>
+                </div>
+            </div><!-- End Info Item -->
+            <div class="col-lg-3">
+                <div class="info-item d-flex">
+                    <i class="bi bi-phone flex-shrink-0"></i>
+                    <div>
+                        <h4>Call:</h4>
+                        <p>+1 123-456-7890</p>
+                    </div>
+                </div>
+            </div><!-- End Info Item -->
+        </div>
+</section>
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer py-4 my-2">
+    <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+            <h5>Useful Site Links</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="product.html" class="nav-link p-0 text-muted">Products</a></li>
+                <li class="nav-item mb-2"><a href="privacy-policy.html" class="nav-link p-0 text-muted">Privacy
+                    Policy</a></li>
+                <li class="nav-item mb-2"><a href="#contact-section" class="nav-link p-0 text-muted">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!--        <div class="col-6 col-md-2 mb-3">-->
+        <!--            <h5>S2</h5>-->
+        <!--            <ul class="nav flex-column">-->
+        <!--                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">a2-1</a></li>-->
+        <!--                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">a2-2</a></li>-->
+        <!--                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">a2-3</a></li>-->
+        <!--                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">a2-4</a></li>-->
+        <!--                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">a2-5</a></li>-->
+        <!--            </ul>-->
+        <!--        </div>-->
+
+        <div class="col-md-4 offset-md-1 mb-3">
+            <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-4 offset-md-1 mb-3">
+            <h5>Office Hours</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><strong>Mon - Fri</strong> <span>10:00 am - 5:00 pm</span></li>
+                <li class="nav-item mb-2"><strong>Sat - Sun</strong> <span>Closed</span></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+        <p>&copy; 2022 North Star Wholesale, Inc. All rights reserved.</p>
+        <!--        <ul class="list-unstyled d-flex">-->
+        <!--            <li class="ms-3"><a class="link-dark" href="#">-->
+        <!--                <svg class="bi" width="24" height="24">-->
+        <!--                    <use xlink:href="#twitter"/>-->
+        <!--                </svg>-->
+        <!--            </a></li>-->
+        <!--            <li class="ms-3"><a class="link-dark" href="#">-->
+        <!--                <svg class="bi" width="24" height="24">-->
+        <!--                    <use xlink:href="#instagram"/>-->
+        <!--                </svg>-->
+        <!--            </a></li>-->
+        <!--            <li class="ms-3"><a class="link-dark" href="#">-->
+        <!--                <svg class="bi" width="24" height="24">-->
+        <!--                    <use xlink:href="#facebook"/>-->
+        <!--                </svg>-->
+        <!--            </a></li>-->
+        <!--        </ul>-->
+    </div>
+</footer><!-- End Footer -->
+
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader">
+    <div class="line"></div>
+</div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        const uluru = {lat: 43.81007018596194, lng: -79.33465234232803};
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map1"), {
+            zoom: 15,
+            center: uluru,
+
+        });
+
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+        // The location of Uluru
+        const uluru2 = {lat: 49.17373650470238, lng: -123.17277113029785};
+        // The map, centered at Uluru
+        const map2 = new google.maps.Map(document.getElementById("map2"), {
+            zoom: 15,
+            center: uluru2,
+        });
+        // The marker, positioned at Uluru
+        const marker2 = new google.maps.Marker({
+            position: uluru2,
+            map: map2,
+        });
+    }
+    // function initMap2() {
+    //     // The location of Uluru
+    //     const uluru2 = {lat: 49.17373650470238, lng: -123.17277113029785};
+    //     // The map, centered at Uluru
+    //     const map2 = new google.maps.Map(document.getElementById("map2"), {
+    //         zoom: 15,
+    //         center: uluru2,
+    //     });
+    //     // The marker, positioned at Uluru
+    //     const marker2 = new google.maps.Marker({
+    //         position: uluru2,
+    //         map: map2,
+    //     });
+    // }
+
+    window.initMap = initMap;
+
+    // // The location of Uluru
+    // const uluru = {lat: 43.81007018596194, lng: -79.33465234232803};
+    // // The map, centered at Uluru
+    // const map = new google.maps.Map(document.getElementById("map1"), {
+    //     zoom: 15,
+    //     center: uluru,
+    // });
+    //
+    // // The marker, positioned at Uluru
+    // const marker = new google.maps.Marker({
+    //     position: uluru,
+    //     map: map,
+    // });
+</script>
+
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8qmpfbv6TSDfV1v-uPjPfoHQkZSS5MyU&callback=initMap&v=weekly"
+        defer
+></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+</body>
+
+</html>
