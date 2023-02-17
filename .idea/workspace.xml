@@ -1,7 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c75aae1f-d850-42ba-ab33-4dca844fcb5f" name="Default Changelist" comment="" />
+    <list default="true" id="c75aae1f-d850-42ba-ab33-4dca844fcb5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gallery-single101.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery-single102.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery-single103.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery-single104.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single10.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single100.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single11.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single12.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single13.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single14.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single15.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single16.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single17.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single18.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single19.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single20.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single21.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single22.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single23.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single24.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single25.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single26.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single26.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single27.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single27.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single28.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single28.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single29.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single30.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single31.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single32.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single32.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single33.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single33.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single34.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single34.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single35.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single35.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single36.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single36.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single37.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single37.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single38.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single39.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single40.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single41.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single41.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single42.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single42.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single43.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single43.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single44.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single44.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single45.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single45.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single46.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single46.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single47.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single47.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single48.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single48.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single49.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single49.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single5.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single50.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single50.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single51.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single51.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single52.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single52.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single53.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single53.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single54.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single54.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single55.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single55.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single56.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single56.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single57.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single57.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single58.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single58.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single59.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single59.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single6.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single60.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single60.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single61.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single61.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single62.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single62.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single63.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single63.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single64.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single64.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single65.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single65.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single66.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single66.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single67.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single67.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single68.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single68.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single69.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single69.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single7.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single70.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single70.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single71.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single71.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single72.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single72.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single73.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single73.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single74.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single74.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single75.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single75.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single76.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single76.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single77.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single77.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single78.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single78.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single79.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single79.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single8.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single80.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single80.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single81.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single81.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single82.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single82.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single83.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single83.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single84.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single84.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single85.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single85.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single86.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single86.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single87.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single87.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single88.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single88.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single89.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single89.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single9.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single90.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single90.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single91.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single91.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single92.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single92.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single93.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single93.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single94.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single94.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single95.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single95.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single96.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single96.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single97.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single98.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single98.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-single99.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-single99.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-inner-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample-inner-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +133,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaWorkSpace\web416e\samsoni" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -33,9 +152,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1310" y="432" width="759" height="548" key="find.popup" timestamp="1676414295532">
+    <state x="889" y="472" width="759" height="548" key="find.popup" timestamp="1676665298902">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="1310" y="432" width="759" height="548" key="find.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1676414295532" />
+    <state x="889" y="472" width="759" height="548" key="find.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1676665298902" />
   </component>
 </project>
